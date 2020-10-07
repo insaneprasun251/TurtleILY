@@ -7,7 +7,8 @@ bill.speed(30)
 distance = 5
 width = 5
 height = 10
-bill.pencolor('darkblue')
+turtle.bgcolor("black")
+bill.pencolor('red')
 
 bill.penup()
 
@@ -37,7 +38,7 @@ for i in range(10):
     bill.left(90)
 bill.pendown()
 for i in range(10):
-  bill.forward(4)
+  bill.forward(3)
 
 bill.penup()
 
@@ -49,7 +50,7 @@ for i in range(10):
         # bill.forward(dot_distance)
     # bill.backward(dot_distance * width)
     bill.left(90)
-    bill.forward(distance-2)
+    bill.forward(distance-3)
     bill.right(90)
 for i in range(10):
     bill.left(60)
